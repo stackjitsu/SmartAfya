@@ -10,7 +10,7 @@ function Nav() {
           <NavLink to="/" end>
             Home
           </NavLink>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about">About + Facts</NavLink>
         </nav>
       </div>
     </header>

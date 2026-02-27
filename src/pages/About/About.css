@@ -1,3 +1,50 @@
 .about {
+  display: grid;
+  gap: 40px;
   padding-top: 64px;
+}
+
+.about__intro {
+  display: grid;
+  gap: 10px;
+  max-width: 720px;
+}
+
+.about__cards {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.about__cards p {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.facts {
+  display: grid;
+  gap: 24px;
+}
+
+.facts__header {
+  display: grid;
+  gap: 8px;
+  max-width: 680px;
+}
+
+.facts__grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.fact-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 18px;
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.5;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
 }

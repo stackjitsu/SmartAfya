@@ -1,3 +1,46 @@
 .home {
-  border-bottom: 1px solid #e5e7eb;
+  display: grid;
+  gap: 32px;
+  padding-bottom: 72px;
+  border-bottom: 1px solid var(--border);
+}
+
+.home__intro {
+  max-width: 680px;
+  display: grid;
+  gap: 10px;
+}
+
+.home__form {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 24px;
+  display: grid;
+  gap: 16px;
+  box-shadow: var(--shadow);
+}
+
+.home__label {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.home__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.home__helper {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.home__note {
+  font-size: 14px;
+  color: var(--muted);
+  border-left: 2px solid var(--accent);
+  padding-left: 12px;
 }
